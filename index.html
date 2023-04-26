@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Это кодировка, забейте, всегда пишем UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!--для Internet Explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Это чтобы масштаб подогнался под экран -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Описание сайта, для SEO нужно -->
+    <meta name="description" content="Start your development with Hi_me landing page, хы">
+
+    <title>Hi_Me_Tasya</title>
+
+    <!-- Подключаем стили CSS -->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Hi_Me</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Navbar -->
+
+    <!-- Header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+        <h1>Привет</h1>
+        <p>Или же: кукусики, доброе утро/день/вечер, здравствуй</p>
+        <div class="text-box">
+        <a href="#hello">Приветик</a>
+        </div>
+        </div>
+        </div>              
+    </header><!-- End of Header -->
+    <!-- About section -->
+    
+    <section class="section" id="about">
+        <div class="container">
+        <h2>Обо мне</h2>
+        <p>Я люблю пить чай и смотреть мультики</p>
+        <h2 id = "hello">Покрась забор</h2>
+        </div>
+    </section> <!-- End of About section -->
+
+
+    <script src="plugins/jquery-3.4.1.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
