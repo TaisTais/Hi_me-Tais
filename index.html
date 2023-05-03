@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -68,13 +69,26 @@
         <p>
           Я люблю пить чай и смотреть мультики
         </p>
-        <h2 id = "hello">ГЫ</h2>
+        <div class="sim-slider">
+            <ul class="sim-slider-list">
+                <!-- <li><img src="screen.gif" alt="screen"></li>    это экран -->
+                <li class="sim-slider-element"><img src="img/1.png" alt="1"></li>
+                <li class="sim-slider-element"><img src="img/2.png" alt="2"></li>
+                <li class="sim-slider-element"><img src="img/3.png" alt="3"></li>
+                <li class="sim-slider-element"><img src="img/4.png" alt="4"></li>
+            </ul>
+            <div class="sim-slider-arrow-left"></div>
+            <div class="sim-slider-arrow-right"></div>
+            <div class="sim-slider-dots"></div>
+        </div>
+    
+        <h2 id = "hello">А всё, а всё</h2>
+    
         </div>
     </section> <!-- End of About section -->
 
-
+    
     <script src="plugins/jquery-3.4.1.min.js"></script>
-
     <script src="js/main.js"></script>
 
 </body>

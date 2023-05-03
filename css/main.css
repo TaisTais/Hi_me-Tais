@@ -3,11 +3,11 @@
 body {
     margin: 0;
     background-color: #ffffff;
-    font-family: "Open Sans";
+    font-family: "Montserrat";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #000000;
+    color: #769efb;
     text-align: left;
     /* height: 10000px; */
 }
@@ -27,21 +27,35 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    color: #6795c3;
+    color: #8fc7ff;
     line-height: 1.2;
+    font-size: 6rem;
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+/*calc(0.5rem + (1rem - 0.5rem) * ((100vw - 320px) / (1920 - 320)));*/
+p {
+    font-size: 30px;
+    font-weight: 400;
+    opacity: 1;
+    color: #769efb;
+    letter-spacing: .9px;
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 
-p {
-    font-size: 15px;
-    font-weight: 100;
-    opacity: 1;
-    color: #fefefe;
-    letter-spacing: .6px;
+.text-box{
+    font-size: 2rem;
+    color:#769efb;
     margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 1rem;
 }
 

@@ -1,0 +1,8 @@
+.sim-slider-list{
+  display: flex;
+}
+
+.sim-slider-element{
+  width: 20%;
+  
+}
