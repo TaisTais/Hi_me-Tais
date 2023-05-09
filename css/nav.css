@@ -70,6 +70,7 @@
     transform: translateY(-50px);
     opacity: 0;
     visibility: hidden;
+    border-radius: 12px;
 }
 
 .navbar .nav .item .link {
@@ -79,11 +80,13 @@
     font-weight: 500;
     text-decoration: none;
     transition: all, 0.3s;
+    border-radius: 12px;
 }
 
 .navbar .nav .item .link:hover {
     color: #fff;
-    background:#000000;
+    background:#4553ab;
+    border-radius: 12px;
 }
 
 .navbar .nav .item:nth-child(1) {

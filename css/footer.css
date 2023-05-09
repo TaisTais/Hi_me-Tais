@@ -6,14 +6,22 @@ footer {
   background-color: #caedff;
 }
 
-footer h4 {
-  font-weight: 700;
+footer h3 {
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   color: #8fc7ff;
   line-height: 1.2;
-  font-size: 3rem;
-  margin-top: 4rem;
+  font-size: 2rem;
+  margin: 4rem 0 0.5rem 0;
 }
+
+footer h4 {
+  color: #729df9;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+}
+
 footer p {
   margin-bottom: 8rem;
 }
