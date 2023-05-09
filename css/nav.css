@@ -10,12 +10,12 @@
 }
 
 .navbar.affix {
-    background: #fff;
+    background: #caedff;
     border-bottom: 1px solid rgba(222, 226, 230, 0.34);
 }
 
 .navbar.affix .logo {
-    color: #000000;  
+    color: #729df9;  
 }
 
 .navbar.affix .container {
@@ -25,11 +25,11 @@
 .navbar.affix .hamburger-inner, 
 .navbar.affix .hamburger-inner::before, 
 .navbar.affix .hamburger-inner::after {
-    background-color: #000000;
+    background-color: #729df9;
 }
 
 .navbar.affix .nav .item .link {
-    color: #000000;
+    color: #729df9;
 }
 
 .navbar .container {

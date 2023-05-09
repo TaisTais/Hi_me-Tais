@@ -21,18 +21,12 @@ body {
     margin-left: auto;
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     color: #8fc7ff;
     line-height: 1.2;
     font-size: 4rem;
-    margin-top: 0;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
@@ -42,12 +36,12 @@ p {
     font-size: 30px;
     font-weight: 400;
     opacity: 1;
-    color: #769efb;
+    color: #444fb7;
     letter-spacing: .9px;
     margin-top: 0;
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .text-box{

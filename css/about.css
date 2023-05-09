@@ -1,0 +1,11 @@
+#about img {
+  display: flex;
+  width: 35%;
+  border-style: none;
+  float: right;
+  margin-left: 6rem;
+}
+
+#about p{
+  padding-top: 1.5rem;
+}
