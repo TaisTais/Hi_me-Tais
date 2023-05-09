@@ -73,7 +73,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
     cursor: pointer;
     vertical-align: middle;
     background-color: #769efb;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1.5rem;
     line-height: 1.5;
     border-radius: 5rem;
@@ -87,11 +87,11 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
   
 .btn:focus, .btn.focus {
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(100, 86, 255, 0.416);
 }
 
 .btn:active {
-    background-color: #4143c7;
+    background-color: #4553ab;
 }
 
 .section {
