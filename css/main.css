@@ -72,7 +72,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
     text-align: center;
     cursor: pointer;
     vertical-align: middle;
-    background-color: #7495e1;
+    background-color: #769efb;
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -83,12 +83,15 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
 .btn:hover {
     color: #fff;
-    background-color: #39538e;
+    background-color: #6188e3;
 }
   
 .btn:focus, .btn.focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
-    background-color: #8e3988;
+}
+
+.btn:active {
+    background-color: #4143c7;
 }
 
 .section {
